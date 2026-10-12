@@ -1,0 +1,73 @@
+Halo rek! Berikut ringkasan dan pembagian tugas kelompok kita untuk:
+PRAKTIK TSS TOPIK 2 - METODE STRATIFIED RANDOM SAMPLING (STRA)
+Topik Kita: Topik A (Menaksir Rata-rata Pengeluaran Transportasi Mahasiswa Kelas TSS)
+
+======================================================================
+📌 ATURAN & KETENTUAN TUGAS (DARI MODUL BU ISMAINI):
+======================================================================
+1. Format: PPT & PDF (Maksimal 7 slide materi inti + 1 slide refleksi = Total 8 slide).
+2. Waktu Presentasi: MAKSIMAL 5 MENIT (sangat ketat, ~35-45 detik per anak).
+3. Pengumpulan: H-1 sebelum Minggu ke-7 di MyITS Classroom.
+   - Ketua upload: PPT & PDF
+   - Anggota upload: PDF
+
+======================================================================
+📊 RINGKASAN DATA KELAS KITA (SUDAH DIHITUNGKAN LENGKAP):
+======================================================================
+• Ukuran Populasi (N) : 43 mahasiswa
+• Rata-rata Biaya (μ) : Rp 226.058 per bulan
+• Variabel Strata     : Moda Kendaraan ke Kampus (4 Strata: Motor, Ojol, Jalan Kaki, Mobil)
+• Bound on Error (B)  : 25% x rata-rata = Rp 56.515 (D = 798,47 juta)
+• Ukuran Sampel (n)   : 31 mahasiswa (STRA Proporsional lebih hemat dibanding SRS = 33)
+• Alokasi Sampel (nh) : Motor = 18-19, Ojol = 6, Jalan Kaki = 4, Mobil = 2-3
+
+======================================================================
+👥 PEMBAGIAN JOBDESK PER SLIDE (1 ANAK 1 SLIDE):
+======================================================================
+
+SLIDE 1: COVER & IDENTITAS TIM (Durasi: 15 detik)
+-> Dosen/Mata Kuliah, Judul Topik, Nama 7 Anggota Lengkap.
+-> Pembicara: Dibuka bersama / oleh Nina sekalian masuk ke Slide 2.
+
+SLIDE 2: LATAR BELAKANG & MASALAH (Durasi: 40 detik)
+-> PIC: NINA
+-> Isi: Kebutuhan transportasi mahasiswa, heterogenitas biaya (Rp 0 s.d. Rp 1,5 jt), alasan pakai STRA bukan SRS.
+-> Visual: Histogram sebaran pengeluaran populasi (file: histogram_sebaran_populasi.png).
+
+SLIDE 3: KOMPONEN RANCANGAN SAMPLING (Durasi: 35 detik)
+-> PIC: RAYYA
+-> Isi: Target population (43 mhs), sampled population, kerangka sampel (no 1-43), unit sampling (individu), variabel utama (biaya transport), variabel strata (moda).
+
+SLIDE 4: SKEMA STRATIFIKASI & DATA PRIOR (Durasi: 45 detik)
+-> PIC: FELDA
+-> Isi: Rasionalisasi 4 strata moda kendaraan (between heterogen, within homogen), tabel parameter prior (Nh, Wh, Mean, SD).
+-> Visual: Boxplot sebaran biaya per strata (file: boxplot_strata_transportasi.png).
+
+SLIDE 5: BATAS KESALAHAN & UKURAN SAMPEL TOTAL (Durasi: 45 detik)
+-> PIC: BRENANDA
+-> Isi: Rumus Bound of Error (B = 25% mean), nilai D, penurunan rumus ukuran sampel STRA proporsional (n = 31), perbandingan efisiensi dengan SRS (n = 33).
+
+SLIDE 6: ALOKASI SAMPEL KE STRATA & PROSEDUR SAMPLING (Durasi: 45 detik)
+-> PIC: AZALEA
+-> Isi: Tabel alokasi (Motor 18/19, Ojol 6, Jalan Kaki 4, Mobil 2/3), alasan pilih Proporsional dibanding Neyman, prosedur undian acak (SRSWOR).
+-> Visual: Bar chart perbandingan Nh vs nh (file: bar_alokasi_populasi_sampel.png).
+
+SLIDE 7: ESTIMATOR MEAN, VARIANS, & EFISIENSI (Durasi: 40 detik)
+-> PIC: ZULFA
+-> Isi: Rumus penaksir y_st (rata-rata berbobot), rumus varians V(y_st) dengan fpc, selang kepercayaan 95%, bukti varians STRA lebih kecil dari SRS.
+
+SLIDE 8: REFLEKSI PEMBELAJARAN & PENUTUP (Durasi: 30 detik)
+-> PIC: NAJIBAH
+-> Isi: Refleksi tim menghadapi data riil & kendala varians ekstrem, tabel pembagian peran 7 anggota (wajib modul), penutup & membuka sesi tanya jawab.
+
+======================================================================
+📁 ASET & MATERI YANG SUDAH TERSEDIA DI FOLDER KELOMPOK:
+======================================================================
+1. Rancangan_Sampling_STRA_Topik_Transportasi.md -> Panduan lengkap teks slide, angka eksak, dan naskah bicara (speaker notes) tiap anak.
+2. Gambar grafik pendukung (siap copas ke slide PPT):
+   - histogram_sebaran_populasi.png (Slide 2 - Nina)
+   - boxplot_strata_transportasi.png (Slide 4 - Felda)
+   - bar_alokasi_populasi_sampel.png (Slide 6 - Azalea)
+3. visualisasi.py -> Skrip python jika dosen minta pembuktian coding.
+
+Gas yuk rek, draft materi dan angka sudah aman semua, tinggal kita masukin ke template PPT!
